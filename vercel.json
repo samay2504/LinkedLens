@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "backend/api/main.py",
+      "src": "backend/index.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "50mb"
@@ -12,10 +12,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "backend/api/main.py"
+      "dest": "backend/index.py"
     }
-  ],
-  "env": {
-    "PYTHONPATH": "/var/task/backend"
-  }
+  ]
 }
