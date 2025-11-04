@@ -1,0 +1,52 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+starlette==0.35.1
+
+# Configuration
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# AI/ML Core
+langchain==0.1.0
+langchain-core==0.1.23
+langchain-community==0.0.13
+langsmith==0.0.87
+
+# LLM Providers
+langchain-google-genai==0.0.6
+google-generativeai==0.3.2
+langchain-groq==0.0.1
+groq==0.33.0
+
+# Search Engines (Multi-engine fallback)
+duckduckgo-search==8.1.1
+googlesearch-python==1.3.0
+beautifulsoup4==4.14.2
+soupsieve==2.8
+
+# HTTP & Web Scraping
+requests==2.32.5
+httpx==0.28.1
+httpcore==1.0.9
+aiohttp==3.13.2
+
+# Logging
+structlog==24.1.0
+
+# Core Dependencies
+typing-extensions==4.15.0
+pydantic-core==2.14.1
+annotated-types==0.7.0
+anyio==4.11.0
+sniffio==1.3.1
+idna==3.11
+certifi==2025.10.5
+charset-normalizer==3.4.4
+urllib3==2.5.0
+
+# Testing (Optional - not needed for production)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
